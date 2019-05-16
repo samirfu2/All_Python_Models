@@ -4,7 +4,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.svm import SVR
 import numpy as np
 
-data_set = pandas.read_csv('C:\\Users\\dasmohap\\PycharmProjects\\All_ML_Python_Models\\K_Fold_CV\\dataset\\housing.csv')
+data_set = pandas.read_csv('./dataset/housing.csv')
 print(data_set.head())
 X = data_set.iloc[:, [0, 12]]
 y = data_set.iloc[:, 13]
